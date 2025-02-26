@@ -1,0 +1,160 @@
+[
+    {
+      "collection": "products",
+      "documents": [
+        {
+          "_id": "P001",
+          "name": "iPhone",
+          "brand": "Apple",
+          "price": 45000
+        },
+        {
+          "_id": "P002",
+          "name": "Surface Pro",
+          "brand": "Microsoft",
+          "price": 38000
+        },
+        {
+          "_id": "P003",
+          "name": "iPad",
+          "brand": "Apple",
+          "price": 22000
+        },
+        {
+          "_id": "P004",
+          "name": "Galaxy Tab",
+          "brand": "Samsung",
+          "price": 12000
+        }
+      ]
+    },
+    {
+      "collection": "customers",
+      "documents": [
+        {
+          "_id": "C40",
+          "name": "Aye Mi",
+          "tel": "+6693-908-5236",
+          "address": {
+            "houseId": "70",
+            "road": "Rama II",
+            "city": "Bangkok"
+          }
+        },
+        {
+          "_id": "C16",
+          "name": "Takashi",
+          "tel": "+6677-101-3758",
+          "address": {
+            "houseId": "482",
+            "road": "Rama IV",
+            "city": "Bangkok"
+          }
+        },
+        {
+          "_id": "C93",
+          "name": "Somchai",
+          "tel": "+6694-994-3456",
+          "address": {
+            "houseId": "567",
+            "road": "Asia",
+            "city": "Phuket"
+          }
+        },
+        {
+          "_id": "C56",
+          "name": "Thana",
+          "tel": "+6677-434-9761",
+          "address": {
+            "houseId": "12",
+            "road": "Rama IX",
+            "city": "Bangkok"
+          }
+        }
+      ]
+    },
+    {
+      "collection": "invoices",
+      "documents": [
+        {
+          "_id": "V001",
+          "date": "20/05/62",
+          "customerId": "C40"
+        },
+        {
+          "_id": "V002",
+          "date": "12/11/62",
+          "customerId": "C16"
+        },
+        {
+          "_id": "V003",
+          "date": "09/09/60",
+          "customerId": "C93"
+        },
+        {
+          "_id": "V004",
+          "date": "17/08/61",
+          "customerId": "C56"
+        }
+      ]
+    },
+    {
+      "collection": "sales",
+      "documents": [
+        {
+          "_id": "S001",
+          "invoiceId": "V001",
+          "productId": "P001",
+          "quantity": 1
+        },
+        {
+          "_id": "S002",
+          "invoiceId": "V001",
+          "productId": "P003",
+          "quantity": 2
+        },
+        {
+          "_id": "S003",
+          "invoiceId": "V002",
+          "productId": "P002",
+          "quantity": 1
+        },
+        {
+          "_id": "S004",
+          "invoiceId": "V003",
+          "productId": "P001",
+          "quantity": 2
+        },
+        {
+          "_id": "S005",
+          "invoiceId": "V003",
+          "productId": "P002",
+          "quantity": 3
+        },
+        {
+          "_id": "S006",
+          "invoiceId": "V003",
+          "productId": "P004",
+          "quantity": 1
+        },
+        {
+          "_id": "S007",
+          "invoiceId": "V003",
+          "productId": "P003",
+          "quantity": 1
+        },
+        {
+          "_id": "S008",
+          "invoiceId": "V004",
+          "productId": "P002",
+          "quantity": 2
+        },
+        {
+          "_id": "S009",
+          "invoiceId": "V004",
+          "productId": "P004",
+          "quantity": 1
+        }
+      ]
+    }
+]

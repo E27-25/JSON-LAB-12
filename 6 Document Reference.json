@@ -1,0 +1,99 @@
+[
+    {
+      "collection": "clients",
+      "documents": [
+        {
+          "_id": "C76",
+          "clientName": "Noppadon"
+        },
+        {
+          "_id": "C56",
+          "clientName": "Thana"
+        }
+      ]
+    },
+    {
+      "collection": "owners",
+      "documents": [
+        {
+          "_id": "C40",
+          "ownerName": "Aye Mi"
+        },
+        {
+          "_id": "C93",
+          "ownerName": "Somchai"
+        },
+        {
+          "_id": "C16",
+          "ownerName": "Takashi"
+        }
+      ]
+    },
+    {
+      "collection": "properties",
+      "documents": [
+        {
+          "_id": "104",
+          "propertyAddress": "Being, China",
+          "ownerId": "C40"
+        },
+        {
+          "_id": "160_BKK",
+          "propertyNo": "160",
+          "propertyAddress": "Bangkok, Thailand",
+          "ownerId": "C93"
+        },
+        {
+          "_id": "160_OSK",
+          "propertyNo": "160",
+          "propertyAddress": "Osaka, Japan",
+          "ownerId": "C16"
+        },
+        {
+          "_id": "128",
+          "propertyAddress": "Bangkok, Thailand",
+          "ownerId": "C93"
+        },
+        {
+          "_id": "355",
+          "propertyAddress": "Phuket, Thailand",
+          "ownerId": "C93"
+        }
+      ]
+    },
+    {
+      "collection": "rentals",
+      "documents": [
+        {
+          "_id": "rent1",
+          "clientId": "C76",
+          "propertyId": "104",
+          "rent": 32000
+        },
+        {
+          "_id": "rent2",
+          "clientId": "C76",
+          "propertyId": "160_BKK",
+          "rent": 22000
+        },
+        {
+          "_id": "rent3",
+          "clientId": "C56",
+          "propertyId": "160_OSK",
+          "rent": 40000
+        },
+        {
+          "_id": "rent4",
+          "clientId": "C56",
+          "propertyId": "128",
+          "rent": 18000
+        },
+        {
+          "_id": "rent5",
+          "clientId": "C56",
+          "propertyId": "355",
+          "rent": 23500
+        }
+      ]
+    }
+]

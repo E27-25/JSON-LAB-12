@@ -1,0 +1,64 @@
+[
+    {
+      "collection": "orders",
+      "documents": [
+        {
+          "_id": "1006",
+          "orderDate": "24/10/2560",
+          "customer": {
+            "id": "9",
+            "name": "Jane",
+            "address": "Bangkok"
+          },
+          "items": [
+            {
+              "productId": "7",
+              "productName": "Table",
+              "unitPrice": 2200,
+              "quantity": 2,
+              "subtotal": 4400
+            },
+            {
+              "productId": "8",
+              "productName": "Chair",
+              "unitPrice": 1200,
+              "quantity": 2,
+              "subtotal": 2400
+            },
+            {
+              "productId": "3",
+              "productName": "Book",
+              "unitPrice": 500,
+              "quantity": 1,
+              "subtotal": 500
+            }
+          ]
+        },
+        {
+          "_id": "1007",
+          "orderDate": "15/01/2562",
+          "customer": {
+            "id": "22",
+            "name": "Adam",
+            "address": "Phuket"
+          },
+          "items": [
+            {
+              "productId": "5",
+              "productName": "Lamp",
+              "unitPrice": 850,
+              "quantity": 1,
+              "subtotal": 850
+            },
+            {
+              "productId": "3",
+              "productName": "Book",
+              "unitPrice": 500,
+              "quantity": 3,
+              "subtotal": 1500
+            }
+          ]
+        }
+      ]
+    }
+]

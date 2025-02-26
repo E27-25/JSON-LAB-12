@@ -1,0 +1,97 @@
+[
+    {
+      "collection": "customers",
+      "documents": [
+        {
+          "_id": "9",
+          "name": "Jane",
+          "address": "Bangkok"
+        },
+        {
+          "_id": "22",
+          "name": "Adam",
+          "address": "Phuket"
+        }
+      ]
+    },
+    {
+      "collection": "products",
+      "documents": [
+        {
+          "_id": "3",
+          "name": "Book",
+          "price": 500
+        },
+        {
+          "_id": "5",
+          "name": "Lamp",
+          "price": 850
+        },
+        {
+          "_id": "7",
+          "name": "Table",
+          "price": 2200
+        },
+        {
+          "_id": "8",
+          "name": "Chair",
+          "price": 1200
+        }
+      ]
+    },
+    {
+      "collection": "orders",
+      "documents": [
+        {
+          "_id": "1006",
+          "orderDate": "24/10/2560",
+          "customerId": "9"
+        },
+        {
+          "_id": "1007",
+          "orderDate": "15/01/2562",
+          "customerId": "22"
+        }
+      ]
+    },
+    {
+      "collection": "orderItems",
+      "documents": [
+        {
+          "_id": "1006_7",
+          "orderId": "1006",
+          "productId": "7",
+          "quantity": 2,
+          "unitPrice": 2200
+        },
+        {
+          "_id": "1006_8",
+          "orderId": "1006",
+          "productId": "8",
+          "quantity": 2,
+          "unitPrice": 1200
+        },
+        {
+          "_id": "1006_3",
+          "orderId": "1006",
+          "productId": "3",
+          "quantity": 1,
+          "unitPrice": 500
+        },
+        {
+          "_id": "1007_5",
+          "orderId": "1007",
+          "productId": "5",
+          "quantity": 1,
+          "unitPrice": 850
+        },
+        {
+          "_id": "1007_3",
+          "orderId": "1007",
+          "productId": "3",
+          "quantity": 3,
+          "unitPrice": 500
+        }
+      ]
+    }
+]

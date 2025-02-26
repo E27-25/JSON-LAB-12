@@ -1,0 +1,47 @@
+[
+    {
+      "_id": "C01",
+      "students": [
+        {
+          "studentId": "S001",
+          "studentName": "Khim",
+          "grade": "A"
+        },
+        {
+          "studentId": "S002",
+          "studentName": "Alex",
+          "grade": "A"
+        },
+        {
+          "studentId": "S003",
+          "studentName": "Tommy",
+          "grade": "B"
+        }
+      ]
+    },
+    {
+      "_id": "C02",
+      "students": [
+        {
+          "studentId": "S001",
+          "studentName": "Khim",
+          "grade": "B"
+        },
+        {
+          "studentId": "S002",
+          "studentName": "Alex",
+          "grade": "C"
+        }
+      ]
+    },
+    {
+      "_id": "C04",
+      "students": [
+        {
+          "studentId": "S002",
+          "studentName": "Alex",
+          "grade": "C"
+        }
+      ]
+    }
+]

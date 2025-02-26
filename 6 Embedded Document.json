@@ -1,0 +1,132 @@
+[
+    {
+      "collection": "clients",
+      "documents": [
+        {
+          "_id": "C76",
+          "clientName": "Noppadon",
+          "rentals": [
+            {
+              "propertyNo": "104",
+              "propertyAddress": "Being, China",
+              "rent": 32000,
+              "owner": {
+                "ownerNo": "C40",
+                "ownerName": "Aye Mi"
+              }
+            },
+            {
+              "propertyNo": "160",
+              "propertyAddress": "Bangkok, Thailand",
+              "rent": 22000,
+              "owner": {
+                "ownerNo": "C93",
+                "ownerName": "Somchai"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "C56",
+          "clientName": "Thana",
+          "rentals": [
+            {
+              "propertyNo": "160",
+              "propertyAddress": "Osaka, Japan",
+              "rent": 40000,
+              "owner": {
+                "ownerNo": "C16",
+                "ownerName": "Takashi"
+              }
+            },
+            {
+              "propertyNo": "128",
+              "propertyAddress": "Bangkok, Thailand",
+              "rent": 18000,
+              "owner": {
+                "ownerNo": "C93",
+                "ownerName": "Somchai"
+              }
+            },
+            {
+              "propertyNo": "355",
+              "propertyAddress": "Phuket, Thailand",
+              "rent": 23500,
+              "owner": {
+                "ownerNo": "C93",
+                "ownerName": "Somchai"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": "owners",
+      "documents": [
+        {
+          "_id": "C40",
+          "ownerName": "Aye Mi",
+          "properties": [
+            {
+              "propertyNo": "104",
+              "propertyAddress": "Being, China",
+              "rent": 32000,
+              "rentedBy": {
+                "clientId": "C76",
+                "clientName": "Noppadon"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "C93",
+          "ownerName": "Somchai",
+          "properties": [
+            {
+              "propertyNo": "160",
+              "propertyAddress": "Bangkok, Thailand",
+              "rent": 22000,
+              "rentedBy": {
+                "clientId": "C76",
+                "clientName": "Noppadon"
+              }
+            },
+            {
+              "propertyNo": "128",
+              "propertyAddress": "Bangkok, Thailand",
+              "rent": 18000,
+              "rentedBy": {
+                "clientId": "C56",
+                "clientName": "Thana"
+              }
+            },
+            {
+              "propertyNo": "355",
+              "propertyAddress": "Phuket, Thailand",
+              "rent": 23500,
+              "rentedBy": {
+                "clientId": "C56",
+                "clientName": "Thana"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "C16",
+          "ownerName": "Takashi",
+          "properties": [
+            {
+              "propertyNo": "160",
+              "propertyAddress": "Osaka, Japan",
+              "rent": 40000,
+              "rentedBy": {
+                "clientId": "C56",
+                "clientName": "Thana"
+              }
+            }
+          ]
+        }
+      ]
+    }
+]

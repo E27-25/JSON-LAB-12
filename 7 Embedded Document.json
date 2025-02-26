@@ -1,0 +1,161 @@
+[
+    {
+      "collection": "invoices",
+      "documents": [
+        {
+          "_id": "V001",
+          "date": "20/05/62",
+          "customer": {
+            "id": "C40",
+            "name": "Aye Mi",
+            "tel": "+6693-908-5236",
+            "address": {
+              "houseId": "70",
+              "road": "Rama II",
+              "city": "Bangkok"
+            }
+          },
+          "items": [
+            {
+              "product": {
+                "id": "P001",
+                "name": "iPhone",
+                "brand": "Apple",
+                "price": 45000
+              },
+              "quantity": 1,
+              "subtotal": 45000
+            },
+            {
+              "product": {
+                "id": "P003",
+                "name": "iPad",
+                "brand": "Apple",
+                "price": 22000
+              },
+              "quantity": 2,
+              "subtotal": 44000
+            }
+          ]
+        },
+        {
+          "_id": "V002",
+          "date": "12/11/62",
+          "customer": {
+            "id": "C16",
+            "name": "Takashi",
+            "tel": "+6677-101-3758",
+            "address": {
+              "houseId": "482",
+              "road": "Rama IV",
+              "city": "Bangkok"
+            }
+          },
+          "items": [
+            {
+              "product": {
+                "id": "P002",
+                "name": "Surface Pro",
+                "brand": "Microsoft",
+                "price": 38000
+              },
+              "quantity": 1,
+              "subtotal": 38000
+            }
+          ]
+        },
+        {
+          "_id": "V003",
+          "date": "09/09/60",
+          "customer": {
+            "id": "C93",
+            "name": "Somchai",
+            "tel": "+6694-994-3456",
+            "address": {
+              "houseId": "567",
+              "road": "Asia",
+              "city": "Phuket"
+            }
+          },
+          "items": [
+            {
+              "product": {
+                "id": "P001",
+                "name": "iPhone",
+                "brand": "Apple",
+                "price": 45000
+              },
+              "quantity": 2,
+              "subtotal": 90000
+            },
+            {
+              "product": {
+                "id": "P002",
+                "name": "Surface Pro",
+                "brand": "Microsoft",
+                "price": 38000
+              },
+              "quantity": 3,
+              "subtotal": 114000
+            },
+            {
+              "product": {
+                "id": "P004",
+                "name": "Galaxy Tab",
+                "brand": "Samsung",
+                "price": 12000
+              },
+              "quantity": 1,
+              "subtotal": 12000
+            },
+            {
+              "product": {
+                "id": "P003",
+                "name": "iPad",
+                "brand": "Apple",
+                "price": 22000
+              },
+              "quantity": 1,
+              "subtotal": 22000
+            }
+          ]
+        },
+        {
+          "_id": "V004",
+          "date": "17/08/61",
+          "customer": {
+            "id": "C56",
+            "name": "Thana",
+            "tel": "+6677-434-9761",
+            "address": {
+              "houseId": "12",
+              "road": "Rama IX",
+              "city": "Bangkok"
+            }
+          },
+          "items": [
+            {
+              "product": {
+                "id": "P002",
+                "name": "Surface Pro",
+                "brand": "Microsoft",
+                "price": 38000
+              },
+              "quantity": 2,
+              "subtotal": 76000
+            },
+            {
+              "product": {
+                "id": "P004",
+                "name": "Galaxy Tab",
+                "brand": "Samsung",
+                "price": 12000
+              },
+              "quantity": 1,
+              "subtotal": 12000
+            }
+          ]
+        }
+      ]
+    }
+]
